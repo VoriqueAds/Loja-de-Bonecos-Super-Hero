@@ -1,0 +1,21 @@
+.container-nav {
+    display: flex;
+}
+
+.container-nav li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 59px;
+    margin-left: 80px;
+}
+
+.container-nav li:hover {
+    text-decoration: underline 3px;
+    font-weight: bold;
+}
+
+.container-nav .navbar-item {
+    text-decoration: none;
+    text-decoration-color: #fe7467;
+    color: black;
+}

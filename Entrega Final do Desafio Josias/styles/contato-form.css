@@ -1,0 +1,118 @@
+.container-form{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 5px;
+    
+}
+
+.form-contato {
+    background-color: white;
+    margin-bottom: 20px;    
+}
+#title-entre-em-contato {
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 600;
+}
+
+#sub-contato{
+    margin-right: auto;
+	margin-left: auto;
+	width: 150px;
+	margin-top: 1%;
+	border-bottom: 3px solid #fe7467;
+}
+
+#text-contato{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+.formulário {
+    padding: 20px;
+    margin: 2px;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(117, 117, 117);
+    gap: 1px;
+    
+}
+#form{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 50%;
+    align-self: center;
+    justify-self: end;
+
+}
+
+#text-area{
+    resize: none;
+    padding: 20px;
+    margin: 2px;
+    font-size: 15px;
+    width: 49%;
+    border-radius: 10px;
+    border: 2px solid rgb(117, 117, 117);
+
+}
+
+#botao-enviar {
+    padding: 15px 290px;
+    text-align: center;
+    background-image: linear-gradient(#fe7467 , #fc3836) ;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px ;
+    border: none;
+    margin-top: 10px;
+
+}
+#botao-enviar:hover {
+    background-image: linear-gradient(#fc3836 , #fe7467);
+    box-shadow: 0 4px 8px 0 rgb(226, 226, 226);
+    cursor: pointer;
+}
+#alinhamento_botao{
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10%;
+
+}
+@media screen and (min-width:300px) and (max-width: 600px) {
+    #title-entre-em-contato{
+        font-size: 20px;
+    }
+    #text-contato{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .container-form{
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #form{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #text {
+        margin-left: 100px;
+
+    }
+    #text-area{
+        width: 90%;
+    }
+    #botao-enviar {
+        padding: 15px 70px;
+    }
+}

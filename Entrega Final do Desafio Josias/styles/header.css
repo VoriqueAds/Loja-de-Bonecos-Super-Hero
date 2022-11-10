@@ -1,0 +1,126 @@
+#header-home{
+    height: 750px ;
+    background-image: url(../Images/imagem1.jpeg);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: -8px;
+}
+#header-catalogo{
+    height: 700px ;
+    background-image: url(../Images/captainmarvelheader.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: -8px;
+}
+#header-contato{
+    height: 700px ;
+    background-image: url(../images/contatoheader.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+
+li {
+    display: inline-block;
+    padding-right: 24px;  
+}
+.menu-item{
+    /* Sublinhado*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+li:hover .menu-item{
+    border-bottom: 2px solid #fe7467;
+    margin: auto;
+}
+#logo-superhero{
+    height: 50px;
+    margin-top: 10px;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;;
+}
+#funko{
+    display: flex;
+    margin-right: 50%;
+    margin-top: 17%;
+    width: 30%;
+    margin-left: 20%;
+        
+}
+#novidade{
+    display: flex;
+    margin-right: 50%;
+    margin-top: 30%;
+    width: 30%;
+    margin-left: 20%;
+}
+#fale-conosco{
+    display: flex;
+    margin-right: 50%;
+    margin-top: 23%;
+    width: 40%;
+    margin-left: 9%;
+}
+
+@media screen and (min-width:300px) and (max-width: 600px) {
+    #header-home {
+        background-image: url(../images/spidermanheader_mobile.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 460px;
+    
+    }
+    #header-catalogo{
+        background-image: url(../images/captainmarvelheader_Mobile.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 460px;
+    }
+    #header-contato{
+        background-image: url(../images/contatoheader_mobile.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 450px;
+    }
+    nav{
+        justify-content: center;
+
+    }
+    #logo-superhero{
+        width: 100%
+    }
+    a {
+        margin-top: 2%;
+        font-size: 18px;
+    }
+    li {
+        padding-left: 0;
+    }
+    #funko{
+        width: 45%;
+        margin-left: 5%;
+        margin-top: 40%;
+    }
+    #novidade{
+        visibility: hidden;
+    }
+    #fale-conosco{
+        visibility: hidden;
+    }
+
+}
